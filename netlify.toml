@@ -1,5 +1,8 @@
 [build]
   base = "."
-  command = "gatsby build"
-  publish = "public/"
-#   functions = "./functions"
+  publish = "./"
+  functions = "./functions"
+  # command = ""
+[build.environment]
+  # Change this path with the path to your repository
+  GO_IMPORT_PATH = "github.com/dylantackoor/packagema.in"
